@@ -17,7 +17,7 @@ WHERE ProductName LIKE 'iPhone%';
 --    4.2 "Samsung"
 
 SELECT * FROM hw_1.smartphones
-WHERE Manufacturer LIKE 'Samsung%';   
+WHERE Manufacturer LIKE '%Samsung%';   
 
 --    4.3 Товар, в котором есть ЦИФРА "8" */
 
